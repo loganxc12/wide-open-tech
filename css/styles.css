@@ -1,0 +1,267 @@
+/* GENERAL STYLES */
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #bdd537;
+}
+
+a:hover {
+    color: #2a6496;
+}
+
+/* NAVIGATION */
+
+.nav {
+    display: flex;
+    position: relative;
+    width: 85%;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.nav img {
+    flex: 1;
+}
+
+.nav ul {
+    flex: 2;
+    margin: auto;
+    margin-left: 15px
+}
+
+.nav ul li {
+    flex: 2;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: .02em;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav li a {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+/* BANNER TITLE */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('http://wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.png');
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    margin-top: -150px;
+}
+
+.title {
+    margin: auto;
+}
+
+.title h1 {
+    font-size: 152px;
+    color: white;
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 300;
+    margin: auto;
+}
+
+.title h5 {
+    font-size: 20px;
+    color: white;
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 300;
+}
+
+/* TEXT BLOCK */
+
+.banner2 {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    background: #F0F0F0;
+    text-align: center;
+} 
+.text-block {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #40666d;
+    
+}
+
+.text-block img {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+    line-height: 46px;
+    font-weight: 300;
+    margin: 0;
+    color: #40666d;
+}
+
+.info-wrap {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    margin 20px 0;
+}
+
+.info-item {
+    flex: 1;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.info-item img {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.info-item i {
+    font-size: 3em;
+    color: lightgrey;
+    font-weight: 100;
+}
+    
+
+.info-item:first-of-type {
+    border-right: 1px solid lightgray;
+}
+
+.info-item:last-of-type {
+    border-left: 1px solid lightgray;
+}
+
+.info-item p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #8f8787;
+}
+
+.info-item h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+/* HELP SECTION */
+
+.help {
+    width: 100%;
+    height: 660px;
+    background: #F0F0F0;
+    text-align: center;
+}
+
+.headline {
+    margin: 40px auto 0 auto;
+    padding: 40px;
+}
+
+.headline p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+    color: #40666d;
+    font-weight: 500;
+    
+}
+
+.bubbles {
+    width: 75%;
+    height: 450px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.bub {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.col {
+    flex: 1;
+    display: flex;
+    background: white;
+    margin: 10px;
+}
+
+.col h4 {
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #40666d
+}
+
+/* START HERE SECTION */
+
+.start {
+    width: 100%;
+    height: 180px;
+    background: white;
+    text-align: center;
+}
+
+.start h2 {
+    color: #40666d;
+    font-family: 'Oswald';
+    font-size: 42px;
+    line-height: 46px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.start p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+    color: #40666d;
+    font-weight: 500;
+    margin-top: -20px;
+}
+
+/* GREEN FEATURE */
+
+.green {
+    widows: 100%;
+    height: 500px;
+    background: #BDD537;
+}
+
+
+    
+    
+    
+    
+    
+
+
+
