@@ -225,7 +225,7 @@ h3 {
 
 .start {
     width: 100%;
-    height: 180px;
+    max-height: 180px;
     background: white;
     text-align: center;
 }
@@ -246,16 +246,517 @@ h3 {
     color: #40666d;
     font-weight: 500;
     margin-top: -20px;
+    padding-bottom: 15px;
 }
 
 /* GREEN FEATURE */
 
 .green {
     widows: 100%;
-    height: 500px;
+    max-height: 535px;
     background: #BDD537;
+    display: flex;
+    flex-direction: column;
 }
 
+.green h2 {
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 42px;
+    line-height: 46px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+    
+.green img {
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* CONTACT INFO */
+
+.contact {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background: red;
+}
+
+.wilmington {
+    display: flex;
+    flex: 1;
+    background: url('http://wideopentech.com/themes/wot-2013-gm/_/img/wilmington.jpg');
+    background-size: cover;
+    width: 100%;
+}
+
+.ashville {
+    display: flex;
+    flex: 1;
+    background: url('http://wideopentech.com/themes/wot-2013-gm/_/img/asheville.jpg');
+    background-size: cover;
+    width: 100%;
+}
+
+.overlay {
+    background: rgba(41, 51, 54, 0.8);
+    margin: auto;
+    width: 70%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay h3 {
+    margin: auto 25px;
+    font-family: 'Open Sans';
+    color: #C2D84A;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 33px;
+}
+
+.overlay p {
+    margin: auto 25px;
+    margin-top: -30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #fff;
+}
+
+/* NEWSLETTER */
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    background: #5E8488;
+    text-align: center;
+}
+
+.newsletter h3 {
+    margin: auto;
+    font-family: 'Open Sans';
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: .02em;
+    font-weight: 600;
+    text-transform: none;
+    line-height: 28px;
+}
+
+.newsletter img {
+    width: 37%;
+    margin: auto;
+    margin-top: -40px;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 55px;
+    background: #53747A;
+}
+
+.footer p {
+    margin: auto 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #fff;
+    flex: 1;
+}
+
+.footer ul {
+    flex: 2;
+    margin: auto;
+    margin-left: 25px;
+}
+    
+.footer ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+    
+.footer ul li a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}   
+    
+
+.footer a:hover {
+    color: #BDD537;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     
     
